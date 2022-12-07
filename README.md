@@ -6,7 +6,7 @@ docker stack deploy -c docker-compose.yml memory_stress_test
 ```
 Usuwanie:
 ```sh
-.\clean.ps1  
+docker swarm leave --force 
 ``` 
 # Screenshot
 #### Po uruchomienia wewnątrz konsoli kontenera
