@@ -13,8 +13,6 @@ Usuwanie:
 ![](images/allocated_memory.jpg)
 #### Po osiągnięciu limitu zasobów kontener jest zatrzymywany
 ![](images/containers.jpg)
-#### Po odpaleniu .\run.ps1 (widok konsoli)
-![](images/run_cmd.jpg)
 #### Inspect
 ```sh
 docker service inspect --pretty memory_stress_test_app
